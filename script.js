@@ -1,5 +1,5 @@
 const inputField = document.querySelector('input');
-const groceriesContainer = document.querySelector('.groceries');
+const groceriesContainer = document.querySelector('#items');
 
 inputField.addEventListener('keydown', function (event) {
     if (event.key == "Enter") {
